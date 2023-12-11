@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing Github Action'
-        run: pwd
+      - name: 'Printing folder contents'
+        run: ls
 
-      - name: 'Testing Printing'
-        run: echo eman
